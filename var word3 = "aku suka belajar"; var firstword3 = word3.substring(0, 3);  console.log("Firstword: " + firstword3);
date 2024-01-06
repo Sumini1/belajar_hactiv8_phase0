@@ -1,0 +1,4 @@
+var word3 = "aku suka belajar";
+var firstword3 = word3.substring(0, 3);
+
+console.log("Firstword: " + firstword3);
