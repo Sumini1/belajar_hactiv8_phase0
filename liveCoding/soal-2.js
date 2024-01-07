@@ -17,7 +17,7 @@ let count = 0;
   // initial value
 let continueLooping = true;
 while (continueLooping) {
-    // break, if...
+    // break, if...(item is undefined)
     if (arr[i] === undefined) {
         continueLooping = false;
     } else {

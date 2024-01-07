@@ -13,17 +13,17 @@ const countData = (arr, searchValue) => {
   // tulis code di sini
 
   // initial  value / variable penampung
-  let count = 0;
+    let count = 0;
 
   // proses : mencari dat yg sesuai, kalau sama count++
   for (let i = 0; i < arr.length; i++) {
-if (arr[i] === searchValue) {
-    count++
-}
+    if (arr[i] === searchValue) {
+        count++
+    }
+    
   }
-
-  // return
   return count;
+  
 };
 let data_array = [
   1,
